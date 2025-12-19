@@ -40,25 +40,14 @@ flight-delay-prediction/
 git clone https://github.com/Arymacore/Flight-Delay-Prediction-model.git
 cd Flight-Delay-Prediction-model
 
-##Install dependencies
-
-pip install -r requirements.txt
-
-
-(Ensure requirements.txt lists all packages used, e.g., pandas, numpy, scikit-learn.)
 
 Usage
-
 Run scripts in the src/ directory to process data, perform EDA, or train models.
-
 Example:
-
 python src/train_delay_model.py
 
 Notes
-
 Large datasets (all_weather.csv, all_weather_with_airport.csv) are excluded due to size constraints. Download separately if needed.
-
 Ensure all dependencies are installed for smooth execution.
 
 Author
